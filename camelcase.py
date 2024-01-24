@@ -10,13 +10,14 @@ def camelcase(sentence):
 
 
 def display_banner():
-    """ Display program name in banner """
+    """ Display program name in banner, using stars """
     msg = 'AWESOME camelCaseGenerator PROGRAM'
     stars = '*' * len(msg)
     print(f'\n {stars} \n {msg} \n {stars}\n')
 
 
 def instructions():
+    """ Display instructions for how to use program """
     print("Enter a sentence and this program will convert it to camelcase.")
 
 
